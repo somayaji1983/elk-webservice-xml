@@ -1,0 +1,376 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 55,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "evcsZ2IBbwwy4rhnARXu",
+        "_score": 1,
+        "_source": {
+          "storeLongitude": 6.777219772338867,
+          "storeName": "Friedrichstraße",
+          "@timestamp": "2018-03-27T11:16:00.084Z",
+          "storeAddress": "Friedrichstraße 152, 40217 Düsseldorf",
+          "ws_request_metadata": {
+            "code": 200,
+            "response_message": "",
+            "runtime_seconds": 0.009299,
+            "name": "web_service",
+            "request": {
+              "method": "get",
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores",
+              "headers": {
+                "Accept": "application/json"
+              }
+            },
+            "times_retried": 0,
+            "response_headers": {
+              "date": "Tue, 27 Mar 2018 11:16:00 GMT",
+              "content-type": "application/json;charset=UTF-8",
+              "transfer-encoding": "chunked"
+            },
+            "host": "punitp6709L"
+          },
+          "type": "webservice",
+          "@version": "1",
+          "storeId": "s2",
+          "storeLatitude": 51.209007263183594
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "fvctZ2IBbwwy4rhn1xWe",
+        "_score": 1,
+        "_source": {
+          "storeName": "Breslauer",
+          "storeId": "s3",
+          "storeLatitude": 51.20222091674805,
+          "@version": "1",
+          "@timestamp": "2018-03-27T11:18:00.289Z",
+          "storeLongitude": 6.7186079025268555,
+          "ws_request_metadata": {
+            "name": "web_service",
+            "response_message": "",
+            "response_headers": {
+              "date": "Tue, 27 Mar 2018 11:18:00 GMT",
+              "transfer-encoding": "chunked",
+              "content-type": "application/json;charset=UTF-8"
+            },
+            "request": {
+              "headers": {
+                "Accept": "application/json"
+              },
+              "method": "get",
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores"
+            },
+            "times_retried": 0,
+            "runtime_seconds": 0.077759,
+            "code": 200,
+            "host": "punitp6709L"
+          },
+          "type": "webservice",
+          "storeAddress": "Breslauer Str. 2, 41460 Neuss"
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "kPcxZ2IBbwwy4rhnfxX_",
+        "_score": 1,
+        "_source": {
+          "@timestamp": "2018-03-27T11:22:00.041Z",
+          "type": "webservice",
+          "storeAddress": "Breslauer Str. 2, 41460 Neuss",
+          "storeName": "Breslauer",
+          "storeLongitude": 6.7186079025268555,
+          "ws_request_metadata": {
+            "response_headers": {
+              "content-type": "application/json;charset=UTF-8",
+              "transfer-encoding": "chunked",
+              "date": "Tue, 27 Mar 2018 11:22:00 GMT"
+            },
+            "request": {
+              "headers": {
+                "Accept": "application/json"
+              },
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores",
+              "method": "get"
+            },
+            "runtime_seconds": 0.009607,
+            "times_retried": 0,
+            "response_message": "",
+            "code": 200,
+            "host": "punitp6709L",
+            "name": "web_service"
+          },
+          "@version": "1",
+          "storeLatitude": 51.20222091674805,
+          "storeId": "s3"
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "oPc0Z2IBbwwy4rhnPxXy",
+        "_score": 1,
+        "_source": {
+          "storeLatitude": 51.231441497802734,
+          "ws_request_metadata": {
+            "response_message": "",
+            "times_retried": 0,
+            "code": 200,
+            "host": "punitp6709L",
+            "response_headers": {
+              "content-type": "application/json;charset=UTF-8",
+              "transfer-encoding": "chunked",
+              "date": "Tue, 27 Mar 2018 11:25:00 GMT"
+            },
+            "name": "web_service",
+            "request": {
+              "method": "get",
+              "headers": {
+                "Accept": "application/json"
+              },
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores"
+            },
+            "runtime_seconds": 0.076685
+          },
+          "type": "webservice",
+          "storeId": "s4",
+          "storeAddress": "Bataverstraße 93, 41462 Neuss",
+          "storeName": "Bataverstraße",
+          "@timestamp": "2018-03-27T11:25:00.217Z",
+          "@version": "1",
+          "storeLongitude": 6.685667037963867
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "pvc5Z2IBbwwy4rhnvhWD",
+        "_score": 1,
+        "_source": {
+          "@timestamp": "2018-03-27T11:31:00.304Z",
+          "ws_request_metadata": {
+            "times_retried": 0,
+            "request": {
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores",
+              "method": "get",
+              "headers": {
+                "Accept": "application/json"
+              }
+            },
+            "response_headers": {
+              "content-type": "application/json;charset=UTF-8",
+              "transfer-encoding": "chunked",
+              "date": "Tue, 27 Mar 2018 11:31:00 GMT"
+            },
+            "response_message": "",
+            "host": "punitp6709L",
+            "code": 200,
+            "name": "web_service",
+            "runtime_seconds": 0.070287
+          },
+          "type": "webservice",
+          "@version": "1",
+          "storeName": "Am Sandbach",
+          "storeId": "s5",
+          "storeAddress": "Am Sandbach 30, 40878 Ratingen",
+          "storeLongitude": 6.831175804138184,
+          "storeLatitude": 51.29734420776367
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "p_c5Z2IBbwwy4rhnvhWD",
+        "_score": 1,
+        "_source": {
+          "@timestamp": "2018-03-27T11:31:00.304Z",
+          "ws_request_metadata": {
+            "times_retried": 0,
+            "request": {
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores",
+              "method": "get",
+              "headers": {
+                "Accept": "application/json"
+              }
+            },
+            "response_headers": {
+              "content-type": "application/json;charset=UTF-8",
+              "transfer-encoding": "chunked",
+              "date": "Tue, 27 Mar 2018 11:31:00 GMT"
+            },
+            "response_message": "",
+            "host": "punitp6709L",
+            "code": 200,
+            "name": "web_service",
+            "runtime_seconds": 0.070287
+          },
+          "type": "webservice",
+          "@version": "1",
+          "storeName": "Schiessstraße",
+          "storeId": "s1",
+          "storeAddress": "Schiessstraße 31, 40549 Düsseldorf",
+          "storeLongitude": 6.719529151916504,
+          "storeLatitude": 51.23768615722656
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "hPcuZ2IBbwwy4rhnwRXe",
+        "_score": 1,
+        "_source": {
+          "storeName": "Bataverstraße",
+          "storeId": "s4",
+          "storeLatitude": 51.231441497802734,
+          "@version": "1",
+          "@timestamp": "2018-03-27T11:19:00.299Z",
+          "storeLongitude": 6.685667037963867,
+          "ws_request_metadata": {
+            "name": "web_service",
+            "response_message": "",
+            "response_headers": {
+              "date": "Tue, 27 Mar 2018 11:19:00 GMT",
+              "transfer-encoding": "chunked",
+              "content-type": "application/json;charset=UTF-8"
+            },
+            "request": {
+              "headers": {
+                "Accept": "application/json"
+              },
+              "method": "get",
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores"
+            },
+            "times_retried": 0,
+            "runtime_seconds": 0.010291,
+            "code": 200,
+            "host": "punitp6709L"
+          },
+          "type": "webservice",
+          "storeAddress": "Bataverstraße 93, 41462 Neuss"
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "h_cuZ2IBbwwy4rhnwRXj",
+        "_score": 1,
+        "_source": {
+          "storeName": "Friedrichstraße",
+          "storeId": "s2",
+          "storeLatitude": 51.209007263183594,
+          "@version": "1",
+          "@timestamp": "2018-03-27T11:19:00.300Z",
+          "storeLongitude": 6.777219772338867,
+          "ws_request_metadata": {
+            "name": "web_service",
+            "response_message": "",
+            "response_headers": {
+              "date": "Tue, 27 Mar 2018 11:19:00 GMT",
+              "transfer-encoding": "chunked",
+              "content-type": "application/json;charset=UTF-8"
+            },
+            "request": {
+              "headers": {
+                "Accept": "application/json"
+              },
+              "method": "get",
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores"
+            },
+            "times_retried": 0,
+            "runtime_seconds": 0.010291,
+            "code": 200,
+            "host": "punitp6709L"
+          },
+          "type": "webservice",
+          "storeAddress": "Friedrichstraße 152, 40217 Düsseldorf"
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "f_ctZ2IBbwwy4rhn1xWe",
+        "_score": 1,
+        "_source": {
+          "storeName": "Bataverstraße",
+          "storeId": "s4",
+          "storeLatitude": 51.231441497802734,
+          "@version": "1",
+          "@timestamp": "2018-03-27T11:18:00.289Z",
+          "storeLongitude": 6.685667037963867,
+          "ws_request_metadata": {
+            "name": "web_service",
+            "response_message": "",
+            "response_headers": {
+              "date": "Tue, 27 Mar 2018 11:18:00 GMT",
+              "transfer-encoding": "chunked",
+              "content-type": "application/json;charset=UTF-8"
+            },
+            "request": {
+              "headers": {
+                "Accept": "application/json"
+              },
+              "method": "get",
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores"
+            },
+            "times_retried": 0,
+            "runtime_seconds": 0.077759,
+            "code": 200,
+            "host": "punitp6709L"
+          },
+          "type": "webservice",
+          "storeAddress": "Bataverstraße 93, 41462 Neuss"
+        }
+      },
+      {
+        "_index": "webservice",
+        "_type": "doc",
+        "_id": "gPctZ2IBbwwy4rhn1xWe",
+        "_score": 1,
+        "_source": {
+          "storeName": "Friedrichstraße",
+          "storeId": "s2",
+          "storeLatitude": 51.209007263183594,
+          "@version": "1",
+          "@timestamp": "2018-03-27T11:18:00.289Z",
+          "storeLongitude": 6.777219772338867,
+          "ws_request_metadata": {
+            "name": "web_service",
+            "response_message": "",
+            "response_headers": {
+              "date": "Tue, 27 Mar 2018 11:18:00 GMT",
+              "transfer-encoding": "chunked",
+              "content-type": "application/json;charset=UTF-8"
+            },
+            "request": {
+              "headers": {
+                "Accept": "application/json"
+              },
+              "method": "get",
+              "url": "http://drone.api.server:7070/dronemanager/api/v10/liststores"
+            },
+            "times_retried": 0,
+            "runtime_seconds": 0.077759,
+            "code": 200,
+            "host": "punitp6709L"
+          },
+          "type": "webservice",
+          "storeAddress": "Friedrichstraße 152, 40217 Düsseldorf"
+        }
+      }
+    ]
+  }
+}

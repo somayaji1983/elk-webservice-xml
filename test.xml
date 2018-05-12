@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <response id="334">
+        <error>
+            <errorcode>404</errorcode>
+            <errormessage>file not found</errormessage>
+        </error>
+        <success></success>
+        <info></info>
+    </response>
+    <response id="234">
+        <error></error>
+        <success>
+            <successcode>200</successcode>
+            <successmessage>OK</successmessage>
+        </success>
+        <info></info>
+    </response>
+    <response id="354">
+        <error></error>
+        <success></success>
+        <info> 
+            <infocode>1009</infocode>
+            <infomessage>Approved</infomessage>
+        </info>
+    </response>
+</root>

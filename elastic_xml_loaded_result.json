@@ -1,0 +1,289 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 7,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "xmlfile",
+        "_type": "doc",
+        "_id": "r_c7Z2IBbwwy4rhndhXu",
+        "_score": 1,
+        "_source": {
+          "type": "xmlfile",
+          "command": "python /Users/ramesh.dhavala/projects/elk_ws_xml_poc/xmlparse.py",
+          "@version": "1",
+          "xmldata": [
+            {
+              "type": "error",
+              "id": "334",
+              "error": {
+                "errorcode": "404",
+                "errormessage": "file not found"
+              }
+            },
+            {
+              "type": "success",
+              "id": "234",
+              "success": {
+                "successcode": "200",
+                "successmessage": "OK"
+              }
+            },
+            {
+              "type": "info",
+              "info": {
+                "infomessage": "Approved",
+                "infocode": "1009"
+              },
+              "id": "354"
+            }
+          ],
+          "id": "%{[@metadata][xmldata][id]}",
+          "@timestamp": "2018-03-27T11:32:53.082Z"
+        }
+      },
+      {
+        "_index": "xmlfile",
+        "_type": "doc",
+        "_id": "o_c5Z2IBbwwy4rhnoxXO",
+        "_score": 1,
+        "_source": {
+          "type": "xmlfile",
+          "command": "python /Users/ramesh.dhavala/projects/elk_ws_xml_poc/xmlparse.py",
+          "@version": "1",
+          "xmldata": [
+            {
+              "type": "error",
+              "id": "334",
+              "error": {
+                "errorcode": "404",
+                "errormessage": "file not found"
+              }
+            },
+            {
+              "type": "success",
+              "id": "234",
+              "success": {
+                "successcode": "200",
+                "successmessage": "OK"
+              }
+            },
+            {
+              "type": "info",
+              "info": {
+                "infomessage": "Approved",
+                "infocode": "1009"
+              },
+              "id": "354"
+            }
+          ],
+          "id": "%{[@metadata][xmldata][id]}",
+          "@timestamp": "2018-03-27T11:30:53.120Z"
+        }
+      },
+      {
+        "_index": "xmlfile",
+        "_type": "doc",
+        "_id": "wfc-Z2IBbwwy4rhnNhUP",
+        "_score": 1,
+        "_source": {
+          "type": "xmlfile",
+          "command": "python /Users/ramesh.dhavala/projects/elk_ws_xml_poc/xmlparse.py",
+          "@version": "1",
+          "xmldata": [
+            {
+              "type": "error",
+              "id": "334",
+              "error": {
+                "errorcode": "404",
+                "errormessage": "file not found"
+              }
+            },
+            {
+              "type": "success",
+              "id": "234",
+              "success": {
+                "successcode": "200",
+                "successmessage": "OK"
+              }
+            },
+            {
+              "type": "info",
+              "info": {
+                "infomessage": "Approved",
+                "infocode": "1009"
+              },
+              "id": "354"
+            }
+          ],
+          "id": "%{[@metadata][xmldata][id]}",
+          "@timestamp": "2018-03-27T11:35:53.085Z"
+        }
+      },
+      {
+        "_index": "xmlfile",
+        "_type": "doc",
+        "_id": "qfc6Z2IBbwwy4rhnjBWJ",
+        "_score": 1,
+        "_source": {
+          "type": "xmlfile",
+          "command": "python /Users/ramesh.dhavala/projects/elk_ws_xml_poc/xmlparse.py",
+          "@version": "1",
+          "xmldata": [
+            {
+              "type": "error",
+              "id": "334",
+              "error": {
+                "errorcode": "404",
+                "errormessage": "file not found"
+              }
+            },
+            {
+              "type": "success",
+              "id": "234",
+              "success": {
+                "successcode": "200",
+                "successmessage": "OK"
+              }
+            },
+            {
+              "type": "info",
+              "info": {
+                "infomessage": "Approved",
+                "infocode": "1009"
+              },
+              "id": "354"
+            }
+          ],
+          "id": "%{[@metadata][xmldata][id]}",
+          "@timestamp": "2018-03-27T11:31:53.076Z"
+        }
+      },
+      {
+        "_index": "xmlfile",
+        "_type": "doc",
+        "_id": "tfc8Z2IBbwwy4rhnYRVM",
+        "_score": 1,
+        "_source": {
+          "type": "xmlfile",
+          "command": "python /Users/ramesh.dhavala/projects/elk_ws_xml_poc/xmlparse.py",
+          "@version": "1",
+          "xmldata": [
+            {
+              "type": "error",
+              "id": "334",
+              "error": {
+                "errorcode": "404",
+                "errormessage": "file not found"
+              }
+            },
+            {
+              "type": "success",
+              "id": "234",
+              "success": {
+                "successcode": "200",
+                "successmessage": "OK"
+              }
+            },
+            {
+              "type": "info",
+              "info": {
+                "infomessage": "Approved",
+                "infocode": "1009"
+              },
+              "id": "354"
+            }
+          ],
+          "id": "%{[@metadata][xmldata][id]}",
+          "@timestamp": "2018-03-27T11:33:53.082Z"
+        }
+      },
+      {
+        "_index": "xmlfile",
+        "_type": "doc",
+        "_id": "x_c_Z2IBbwwy4rhnIBVy",
+        "_score": 1,
+        "_source": {
+          "type": "xmlfile",
+          "command": "python /Users/ramesh.dhavala/projects/elk_ws_xml_poc/xmlparse.py",
+          "@version": "1",
+          "xmldata": [
+            {
+              "type": "error",
+              "id": "334",
+              "error": {
+                "errorcode": "404",
+                "errormessage": "file not found"
+              }
+            },
+            {
+              "type": "success",
+              "id": "234",
+              "success": {
+                "successcode": "200",
+                "successmessage": "OK"
+              }
+            },
+            {
+              "type": "info",
+              "info": {
+                "infomessage": "Approved",
+                "infocode": "1009"
+              },
+              "id": "354"
+            }
+          ],
+          "id": "%{[@metadata][xmldata][id]}",
+          "@timestamp": "2018-03-27T11:36:53.087Z"
+        }
+      },
+      {
+        "_index": "xmlfile",
+        "_type": "doc",
+        "_id": "u_c9Z2IBbwwy4rhnSxWo",
+        "_score": 1,
+        "_source": {
+          "type": "xmlfile",
+          "command": "python /Users/ramesh.dhavala/projects/elk_ws_xml_poc/xmlparse.py",
+          "@version": "1",
+          "xmldata": [
+            {
+              "type": "error",
+              "id": "334",
+              "error": {
+                "errorcode": "404",
+                "errormessage": "file not found"
+              }
+            },
+            {
+              "type": "success",
+              "id": "234",
+              "success": {
+                "successcode": "200",
+                "successmessage": "OK"
+              }
+            },
+            {
+              "type": "info",
+              "info": {
+                "infomessage": "Approved",
+                "infocode": "1009"
+              },
+              "id": "354"
+            }
+          ],
+          "id": "%{[@metadata][xmldata][id]}",
+          "@timestamp": "2018-03-27T11:34:53.080Z"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+./logstash -f /Users/ramesh.dhavala/projects/elk_ws_xml_poc/elk_json_xml.conf 
+
+
+ curl -i -X GET -H 'Content-Type: application/json' http://drone.api.server:7070/dronemanager/api/v10/liststores
+    curl -i -X GET -H 'Content-Type: application/json' http://drone.api.server:7070/dronemanager/api/v10/listcustomers
+    curl -i -X GET -H 'Content-Type: application/json' http://drone.api.server:7070/dronemanager/api/v10/listdrones
+    curl -i -X POST -H 'Content-Type: application/json' -d '{"customerId": "C1"}' http://drone.api.server:7070/dronemanager/api/v10/getdronerouteplan
+
+    curl -i -X POST -H 'Content-Type: application/json' -H 'ouser: test' -H 'opass: pass1' -d '{"customerId": "C1"}' http://drone.api.server:7070/dronemanager/api/v10/querycustomer
+
+
+
+xpath => {
+          "/root/response/@type" => "responsetype"
+          "string(/root/response[@type='error']/error/@message)" => "errormessage"
+          "/root/response[@type='error']/error/errorcode/text()" => "errorcode"
+          "string(/root/response[@type='success']/error/@message" => "successmessage"
+          "/root/response[@type='error']/success/successcode/text()" => "successcode"
+        }
+
+
+
+
+xpath => [
+            "/root/response/@type", "responsetype",
+            "string(/root/response[@type='error']/error/@message)", "errormessage",
+            "/root/response[@type='error']/error/errorcode/text()", "errorcode",
+            "string(/root/response[@type='success']/success/@message)", "successmessage",
+            "/root/response[@type='error']/success/successcode/text()", "successcode"
+        ]
